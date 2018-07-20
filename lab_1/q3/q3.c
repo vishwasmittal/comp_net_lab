@@ -8,8 +8,8 @@ int main() {
 		pid_t pid = fork();
 		if(pid==0){
 			cout<<"process id "<<getpid()<<endl;
-			//fflush(stdout);
 		}
 	}
 	return 0;
-}	
+}
+
